@@ -1,0 +1,53 @@
+.modal {
+  background-color: #00000036;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal button {
+  margin-top: 10px;
+  cursor: pointer;
+  opacity: .8;
+  border: none;
+  width: 141px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #EDBC4A;
+  color: #fff;
+  font-size: 20px;
+}
+.none {
+  display: none;
+}
+.inputs {
+  font-family: 'Poppins';
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 999;
+  width: 600px;
+  height: 800px;
+  background-color: #e0e0e0;
+  text-align: center;
+  border-radius: 10px;
+}
+.inputs input {
+  font-family: 'Poppins';
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 300px;
+  height: 34px;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,29 @@
+.pages {
+  margin: 38px 0 0 1343px; 
+  display: grid;
+  grid-template-columns: 17px 25px 27px 26px 27px 1fr;
+  grid-template-rows: 1fr;
+  width: 130px;
+}
+.pages button {
+  font-family: 'Titillium Web';
+  line-height: 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+}
+.pages img {
+  cursor: pointer;
+  margin-top: 3px;
+}
+.pages_active {
+  color: #fff;
+  background-color: #EDBC4A;
+  border-radius: 50%;
+}
+.button {
+  background-color: transparent;
+}

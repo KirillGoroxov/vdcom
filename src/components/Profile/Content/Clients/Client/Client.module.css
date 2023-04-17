@@ -1,0 +1,29 @@
+.clientContainer {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: 'Poppins';
+  font-size: 20px;
+  background-color: #fff;
+  height: 77px;
+  margin-bottom: 13px;
+  display: grid;
+  grid-template-rows: 50px;
+  grid-template-columns: 46px 106px 153px 126px 115px 113px 177px 159px 163px 202px 54px 60px;
+}
+.clientContainer input{
+  width: 24px;
+  height: 24px;
+  margin: 27px 0 0 9px;
+}
+.clientContainer span {
+  margin-top: 24px;
+  overflow: hidden;
+}
+.pensil {
+  margin-top: 28px;
+  cursor: pointer;
+}
+.delete {
+  width: 22px;
+  margin-top: 23px;
+  cursor: pointer;
+}

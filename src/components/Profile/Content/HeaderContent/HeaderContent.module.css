@@ -1,0 +1,29 @@
+.content__header {
+  font-family: 'Poppins';
+}
+.content__header span {
+  display: inline-block;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 21px 0 0 32px;
+}
+.content__button {
+  cursor: pointer;
+  margin: -45px 0 0 1332px;
+  width: 150px;
+}
+.content__button button {
+  cursor: pointer;
+  opacity: .8;
+  border: none;
+  width: 141px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #EDBC4A;
+  color: #fff;
+  font-size: 20px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+}
+.content__button button:active, button:focus {
+  outline: none;
+}

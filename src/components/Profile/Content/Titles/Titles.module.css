@@ -1,0 +1,14 @@
+.content__title {
+  display: inline-grid;
+  grid-template-columns: 45px 115px 153px 126px 115px 113px 177px 159px 163px 202px 82px;
+  grid-template-rows: 1fr;
+  margin: 23px 0 0 23px;
+  height: 50px;
+  background-color: #fff;
+}
+.content__input {
+  margin: 14px 0 0 9px;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #000;
+}

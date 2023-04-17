@@ -1,0 +1,66 @@
+.navbar {
+  grid-area: n;
+  font-family: 'Poppins';
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  height: 948px;
+  border-bottom: 2px solid #EAEAEA;
+}
+.item {
+  width: 226px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.total {
+  margin: 45px 0 0 0;
+  padding-left: 22px;
+}
+.total span {
+  padding-left: 9px;
+}
+.total img {
+  padding-left: 2px;
+}
+.calendar {
+  margin-top: 52px;
+  padding-left: 22px;
+}
+.calendar span {
+  padding: 2px 0 0 11px;
+}
+.report {
+  margin-top: 40px;
+  padding-left: 21px;
+}
+.report span {
+  margin-left: 8px;
+}
+.report img {
+
+}
+.logOut {
+  padding: 22px 0 0 44px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Titillium Web';
+}
+.logOut span {
+  margin: 0 0 2px 8px;
+  /* padding-left: 8px; */
+}
+.logOut img {
+  width: 19px;
+  height: 19px;
+  padding: 5px 0 0 23px;
+}
+.active {
+  background-color: rgba(237, 188, 74, 0.2);
+  border-left: 5px solid #EDBC4A;
+  padding-left: 17px;
+}

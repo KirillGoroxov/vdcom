@@ -1,0 +1,8 @@
+.clients {
+  height: 1117px;
+  width: 1728px;
+  display: grid;
+  grid-template-columns: 226px 1502px;
+  grid-template-rows: 96px 100%;
+  grid-template-areas: "s s" "n c";
+}
